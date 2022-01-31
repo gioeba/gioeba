@@ -1,37 +1,154 @@
 body{
 	background-color: yellow;
 	font-size: 20px;
-}
-p{
-	font-family:"Halvetica", sans-serif;
-	color: blue;
+	height: 100%;
 }
 h1{
 	color: blue;
 	font-family: fantasy;
+	font-size: 2em;
+	text-align: center;
 }
 h2{
 color: red;
 font-family:cursive;
+text-align: center;
 }
 h3{
-	color: green;
+	color: aqua; 
 	font-family: monospace;
 	font-size: 2em;
+	text-align: center;
+}
+.list{
+	font-size: 1.5em;
+}
+p{
+	font-family:"Halvetica", sans-serif;
+	color: blue;
+	margin:15px 10px 10px 0px;
+	border: 3px dashed rgb(3, 10, 73);
+	padding: 15px;
+}
+#container{
+	height: 3500px;
+	margin: auto;
+	border: 2px solid red;
+}
+#flag{
+	width: 270px;
+	margin-right: 20px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	position: absolute;
+	left: 250px;
+}
+#Tiflisi{
+	height: 100px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	position: absolute;
+	left: 570px;
+	top:150px;
+}
+#map{
+	width: 270px;
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	position: relative;
+	top: 150px;
+	left: 300px;
+}
+#svaneti{
+	width: 270px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	position: relative;
+	top: 150px;
+	left: 350px;
+}
+#links{
+	background-color: white;
+	width: 20%;
+	float: right;
+	position: relative;
+	top: 180px;
+	margin-right: 10px;
+	border: 3px dashed rgb(3, 10, 73);
+}
+#main{
+	position: relative;
+	top: 120px;
+	bottom: 100px;
+}
+#physical{
+	width: 170px;
+	float: right;
+	margin-left: 6px;
+	margin-bottom: 6px;
+}
+#freska{
+	width: 170px;
+	float: right;
+	margin-left: 6px;
+	margin-bottom: 6px;
+	padding-right: 10px;
+}
+#independence{
+	width: 230px;
+	float: right;
+	margin-left: 6px;
+	margin-bottom: 6px;
+	padding-right: 10px;
 }
 #anthem{
 	color: blue;
 	line-height: 1.5em;
 	text-align: center;
-}
-#basic{
-	color: green;
-	text-decoration: underline;
+	border: none;
+	position: relative;
+	top: 120px;
 }
 .info{
 	background-color: white;
 	font-family: sans-serif;
+	margin-left: 5px;
 }
-a{
-	text-decoration: none;
+.Tbilisi{
+	color: red;
+}
+#capital{
+	background-color:deeppink;
+	color:floralwhite;
+	font-weight: bold;
+	font-family: monospace;
+	width: 70%;
+	height: 250px;
+	overflow: auto;
+	border: 3px dotted blue;
+	padding: 10px;
+	position: relative;
+	top: 130px;
+	left: 5px;
+}
+#abanotubani{
+	width: 200px;
+	float: right;
+	margin-left: 6px;
+	margin-bottom: 5px;
+}
+#lists{
+position: relative;
+top: 100px;
+text-align: center;
+list-style-position: inside;
+}
+ th, td{
+	position: relative;
+	left: 440px;
+	bottom: 20px;
+	border: 3px solid red;
+	background-color: white;
+	color:aqua;
 }
