@@ -20,18 +20,21 @@ h3{
 	font-size: 2em;
 	text-align: center;
 }
+h1:hover, h3:hover{
+	color: red;
+}
 .list{
 	font-size: 1.5em;
 }
 p{
-	font-family:"Halvetica", sans-serif;
+	font-family: sans-serif;
 	color: blue;
 	margin:15px 10px 10px 0px;
 	border: 3px dashed rgb(3, 10, 73);
 	padding: 15px;
 }
 #container{
-	height: 3500px;
+	height: 3200px;
 	margin: auto;
 	border: 2px solid red;
 }
@@ -70,10 +73,11 @@ p{
 }
 #links{
 	background-color: white;
-	width: 20%;
+	width: 12%;
+	height: 200px;
 	float: right;
 	position: relative;
-	top: 180px;
+	top: 450px;
 	margin-right: 10px;
 	border: 3px dashed rgb(3, 10, 73);
 }
@@ -81,6 +85,15 @@ p{
 	position: relative;
 	top: 120px;
 	bottom: 100px;
+}
+.info{
+	background-color: white;
+	font-family: sans-serif;
+	margin-left: 5px;
+	width: 80%;
+}
+.info:hover{
+	background-color: deeppink;
 }
 #physical{
 	width: 170px;
@@ -110,17 +123,12 @@ p{
 	position: relative;
 	top: 120px;
 }
-.info{
-	background-color: white;
-	font-family: sans-serif;
-	margin-left: 5px;
-}
 .Tbilisi{
 	color: red;
 }
 #capital{
-	background-color:deeppink;
-	color:floralwhite;
+	background-color:white;
+	color:blue;
 	font-weight: bold;
 	font-family: monospace;
 	width: 70%;
@@ -131,6 +139,9 @@ p{
 	position: relative;
 	top: 130px;
 	left: 5px;
+}
+#capital:hover{
+	background-color:deeppink;
 }
 #abanotubani{
 	width: 200px;
