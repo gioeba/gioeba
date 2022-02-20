@@ -113,6 +113,15 @@ h3{
     padding: 10px;
     border: 2px dashed hsl(0, 0%, 0%);
 }
+.form{
+    width: 24%;
+    position: absolute;
+    top: 900px;
+    left: 930px;
+    background-color:hsl(112, 67%, 95%);
+    padding: 10px;
+    border: 2px dashed hsl(0, 0%, 0%);
+}
 .flag{
     width: 170px;
     margin-left: 5px;
